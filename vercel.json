@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/fetch-tyres.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/fetch-tyres",
+      "dest": "api/fetch-tyres.js"
+    }
+  ]
+}
