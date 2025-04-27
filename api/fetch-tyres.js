@@ -1,3 +1,9 @@
+const response = await fetch(apiUrl, {
+  headers: {
+    'Authorization': `Bearer ${token}`
+  }
+});
+
 export default async function handler(req, res) {
   const storeId = '86413255';
   const token = 'public_TyrqEQkEXtqK5u27fvLwS69RURXdfSqt';
